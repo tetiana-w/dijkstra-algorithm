@@ -5,14 +5,11 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-//import java.util.HashMap;
 import java.util.HashSet;
-//import java.util.Map;
 import java.util.Set;
-
 import de.twproject.geoobject.City;
 
-//import de.twproject.route.RoadNetwork;
+
 /**
  * Hier wird auf alle Dataien in einer Datenbank zugegriffen. Das ist eine Klasse,
  * die eine Implementierung des CityDAO-Interface ist.
