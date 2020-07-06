@@ -39,11 +39,6 @@ public class CityDAOImpl implements CityDAO {
 		try {
 			Connection conn = DriverManager.getConnection(dbURL, user, password);
 
-			// Map<City, Integer> citiesId = new HashMap<City, Integer>(); TODO delete
-
-			// Set<City> citiesRN = new HashSet<City>();
-			// RoadNetwork roadNetwork = new RoadNetwork(citiesRN);
-
 			String sql = "SELECT * FROM city";
 			Statement stmt = conn.createStatement();
 			ResultSet result = stmt.executeQuery(sql);
@@ -80,13 +75,11 @@ public class CityDAOImpl implements CityDAO {
 					cityFromDB.addNeighbourCity(neighbourCity, distance);
 
 				}
-				// citiesRN.add(cityFromDB);
 				allCities.add(cityFromDB);
 			}
 
 		} catch (SQLException e) {
 			System.out.println("There is a problem with connection to database!");
-			// e.printStackTrace();
 		}
 		if (allCities.size() == 0) {
 			return null;
