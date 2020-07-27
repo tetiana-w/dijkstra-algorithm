@@ -32,7 +32,7 @@ public class CityDAOImpl implements CityDAO {
 	 */
 	@Override
 	public Set<City> getAllCities() {
-		String dbURL = "jdbc:mysql://localhost:3306/german_cities";
+		String dbURL = "jdbc:mysql://localhost:3306/cities";
 		String user = "root";
 		String password = "";
 
