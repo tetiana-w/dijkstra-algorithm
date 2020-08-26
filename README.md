@@ -8,7 +8,7 @@ Mit hilfe dieses Programms ist es möglich den kürzesten Pfad zwischen zwei aus
 Mit dem Dijkstra Algorithmus ist es möglich in einem Graphen den kürzesten Pfad zwischen dem Startknoten und allen anderen Knoten zu berechnen. Zu Testzwecken wurden mehrere deutsche Städte als Knotenpunkte eines Graphen und die Distanzen zwischen den Städten als Kanten verwendet. Eine schematische Darstellung ist in der folgenden Abbildung zu sehen.
 
 <p align="center">
-   <img src="https://github.com/tetiana-w/dijkstra-algorithm/blob/master/cities_network.jpg" width="450" title="Example">  
+   <img src="https://github.com/tetiana-w/dijkstra-algorithm/blob/master/cities_network.jpg" width="450" title="Deutsche Städte und Distanzen zwischen den Städten">  
 </p>
 
 # Projekt starten
